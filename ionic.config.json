@@ -1,8 +1,13 @@
 {
-  "name": "ionictest",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular",
-  "id": "62c3320a"
+  "defaultProject": "ionictest",
+  "projects": {
+    "ionictest": {
+      "name": "ionictest",
+      "integrations": {
+        "cordova": {},
+        "capacitor": {}
+      },
+      "type": "angular"
+    }
+  }
 }
